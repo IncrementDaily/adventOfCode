@@ -1,0 +1,6 @@
+ int topThreeElfSum = 0;
+            topThreeElfSum += sortedElfSums.pollLast();
+            topThreeElfSum += sortedElfSums.pollLast();
+            topThreeElfSum += sortedElfSums.pollLast();
+
+            System.out.println(topThreeElfSum);

@@ -1,0 +1,26 @@
+// Create a new File object
+File elves3 = new File("C:\\Users\\Karim\\Desktop\\AdventOfCode\\src\\elvesData3.txt");
+
+// Genuinely create a new file inside the Windows OS
+try{
+elves3.createNewFile();
+}Catch(){
+blah blah
+}
+
+// Find out how long since the file has been lastModified.
+System.out.println(System.currentTimeMillis() - elves3.lastModified());
+
+// Label the directory of the file, then call listFiles on it. This returns an array of the files. Then
+// since you have an array, you can call the Objects in that array by index. [2].toString() returns
+// C:\Users\Karim\Desktop\AdventOfCode\src\elvesData2.txt
+
+File elvesDir = new File("C:\\Users\\Karim\\Desktop\\AdventOfCode\\src");
+System.out.println(elvesDir.listFiles()[2]);
+
+// file.getParentFile() returns the directory of any file
+elves3.getParentFile() returns src
+
+// Print all the file names inside a directory
+// System.out.println(Arrays.toString(<<<pointerToFile>>>.getParentFile().list()));
+

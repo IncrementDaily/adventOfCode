@@ -1,0 +1,6 @@
+# Default ignored files
+# Don't use intelliJ IDE user settings (.idea directory and .iml file)
+# Don't track the out directory which is generated and irrelevant
+out/
+.idea/
+*.iml
